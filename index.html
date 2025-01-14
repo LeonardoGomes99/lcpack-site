@@ -36,30 +36,60 @@
     <header>
         <div class="container-fluid banner">
             <div class="row align-items-center justify-content-around">
-                <div class="col">
+                <div class="col" style="position: relative; bottom: -50px;">
                     <img src="assets/logotipo/lcpack-logo.png" class="img-fluid" alt="LC Pack Logo"
                         style="height: 110px;" />
                 </div>
-                <div class="col-12 col-md-6 text-center">
-                    <div class="row justify-content-end">
-                        <div class="col-auto" style="color: #fafafa;">
-                            <strong><i class="fa fa-phone me-2" style="scale: 1.5;"></i>
-                                <span style="font-size: 20px;">12 3156-4949</span>
-                            </strong>
-                        </div>
-                        <div class="col-auto" style="color: #fafafa;">
-                            <strong><i class="fa fa-dollar me-2" style="scale: 1.5;"></i>
-                                <span style="font-size: 20px;">Cotação</span></strong>
-                        </div>
-                    </div>
+                <div class="col-3 mt-4" style="position: relative; bottom: -20px;">
+                    <h5><a href="#section-embalagens" class="no-line" style="color: #fafafa;"><strong>Todos os
+                                Departamentos</strong></a></h5>
                 </div>
+                <div class="col me-3 mt-4" style="position: relative; bottom: -20px;">
+                    <h5><a href="#section-laboratorio" class="no-line"
+                            style="color: #fafafa;"><strong>Laboratório</strong></a></h5>
+                </div>
+                <div class="col me-3 mt-4" style="position: relative; bottom: -20px;">
+                    <h5><a href="#section-farmaceutico" class="no-line"
+                            style="color: #fafafa;"><strong>Farmaceutico</strong></a></h5>
+                </div>
+                <div class="col me-3 mt-4" style="position: relative; bottom: -20px;">
+                    <h5><a href="#section-quimico" class="no-line" style="color: #fafafa;"><strong>Químico</strong></a>
+                    </h5>
+                </div>
+                <div class="col me-3 mt-4" style="position: relative; bottom: -20px;">
+                    <h5><a href="#section-agroquimico" class="no-line"
+                            style="color: #fafafa;"><strong>Agroquímico</strong></a></h5>
+                </div>
+                <!-- <div class="col d-flex flex-column justify-content-end">
+                    <div class="col-auto" style="color: #fafafa;">
+                        <strong><i class="fa fa-phone me-2" style="scale: 1.5;"></i>
+                            <span style="font-size: 20px;">12 3156-4949</span>
+                        </strong>
+                    </div>
+                    <div class="col" style="color: #fafafa;">
+                        <strong><i class="fa fa-dollar me-2" style="scale: 1.5;"></i>
+                            <span style="font-size: 20px;">Cotação</span></strong>
+                    </div>
+                </div> -->
             </div>
         </div>
     </header>
 
     <!-- Barra de Navegação -->
     <navbar>
-        <div class="row text-center align-items-center justify-content-around mx-0">
+        <div class="row text-center align-items-center justify-content-center mx-0">
+            <div class="col-2 mt-4">
+                <h5><a href="#section-farmaceutico" class="no-line" style="color: #1cafc7;"><strong>Frascos</strong></a>
+                </h5>
+            </div>
+            <div class="col-2 mt-4">
+                <h5><a href="#section-quimico" class="no-line" style="color: #1cafc7;"><strong>Potes</strong></a>
+                </h5>
+            </div>
+            <div class="col-2 mt-4">
+                <h5><a href="#section-agroquimico" class="no-line" style="color: #1cafc7;"><strong>Bombonas</strong></a>
+                </h5>
+            </div>
             <!-- <div class="col mt-4 text-center">
                 <h2 href="javascript:void(0);">
                     <i class="fa fa-bars dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -154,25 +184,6 @@
                     </i>
                 </h2>
             </div> -->
-            <div class="col-3 mt-4">
-                <h4><a href="#section-embalagens" class="no-line" style="color: #1cafc7;"><strong>Todos os
-                            Departamentos</strong></a></h4>
-            </div>
-            <div class="col me-3 mt-4">
-                <h4><a href="#section-laboratorio" class="no-line"
-                        style="color: #1cafc7;"><strong>Laboratório</strong></a></h4>
-            </div>
-            <div class="col me-3 mt-4">
-                <h4><a href="#section-farmaceutico" class="no-line"
-                        style="color: #1cafc7;"><strong>Farmaceutico</strong></a></h4>
-            </div>
-            <div class="col me-3 mt-4">
-                <h4><a href="#section-quimico" class="no-line" style="color: #1cafc7;"><strong>Químico</strong></a></h4>
-            </div>
-            <div class="col me-3 mt-4">
-                <h4><a href="#section-agroquimico" class="no-line"
-                        style="color: #1cafc7;"><strong>Agroquímico</strong></a></h4>
-            </div>
         </div>
     </navbar>
 
@@ -188,7 +199,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_30ml.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco PET 30ml</h5>
                     </div>
                 </div>
@@ -199,7 +210,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_farma_100ml_38100_roxo.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco PET 100ml</h5>
                     </div>
                 </div>
@@ -210,29 +221,29 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_115ml_bc28.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Pead 115ml</h5>
                     </div>
                 </div>
             </div>
 
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_125ml_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Pead 125ml Retangular</h5>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col">
                 <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_dosador_250ml.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Pead Dosador 250ml</h5>
                     </div>
                 </div>
@@ -243,7 +254,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_300ml_agro_bc45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Pead 300ml Agro</h5>
                     </div>
                 </div>
@@ -254,7 +265,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_agro.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Pead 1L Agro</h5>
                     </div>
                 </div>
@@ -265,7 +276,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_petrobras.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Pead 1L Petrobrás</h5>
                     </div>
                 </div>
@@ -276,7 +287,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_5l_am_bc42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Pead 5L AM</h5>
                     </div>
                 </div>
@@ -287,7 +298,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_5l_pouron.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Pead 5L Pour on</h5>
                     </div>
                 </div>
@@ -307,7 +318,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_farma_30ml_28030.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Farma 30ml</h5>
                     </div>
                 </div>
@@ -319,7 +330,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_farma_50ml_38050.png" alt="Card image"
                         style="width:100%; object-fit: cover; scale: 0.8;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Farma 50ml</h5>
                     </div>
                 </div>
@@ -330,7 +341,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_farma_100ml_38100_roxo.png" alt="Card image"
                         style="width:100%; object-fit: cover;  scale: 0.8;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Farma 100ml</h5>
                     </div>
                 </div>
@@ -341,7 +352,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_Farma_200ml_282000.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Farma 200ml</h5>
                     </div>
                 </div>
@@ -352,7 +363,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_dosador_250ml.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Dosador 250ml</h5>
                     </div>
                 </div>
@@ -363,7 +374,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_dosador_1l_bc28.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Dosador 1L</h5>
                     </div>
                 </div>
@@ -374,7 +385,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_125ml_nr42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco 125ml NR42</h5>
                     </div>
                 </div>
@@ -385,7 +396,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_250ml_nr42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco 250ml NR42</h5>
                     </div>
                 </div>
@@ -396,7 +407,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_250ml_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Retangular 250ml</h5>
                     </div>
                 </div>
@@ -407,7 +418,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_500ml_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Retangular 500ml</h5>
                     </div>
                 </div>
@@ -418,7 +429,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Retangular 1L</h5>
                     </div>
                 </div>
@@ -429,7 +440,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_250ml_bc55.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote 250ml</h5>
                     </div>
                 </div>
@@ -440,7 +451,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_500ml_rk_bc55 (1).png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote 500ml</h5>
                     </div>
                 </div>
@@ -451,7 +462,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_1l_redondo_bc85 (1).png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote Redondo 1L</h5>
                     </div>
                 </div>
@@ -470,7 +481,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_farma_30ml_28030.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Farma 30ml</h5>
                     </div>
                 </div>
@@ -482,7 +493,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_farma_50ml_38050.png" alt="Card image"
                         style="width:100%; object-fit: cover; scale: 0.8;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Farma 50ml</h5>
                     </div>
                 </div>
@@ -493,7 +504,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_farma_100ml_38100_roxo.png" alt="Card image"
                         style="width:100%; object-fit: cover;  scale: 0.8;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Farma 100ml</h5>
                     </div>
                 </div>
@@ -504,7 +515,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_115ml_bc28.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Pead 115ml</h5>
                     </div>
                 </div>
@@ -515,7 +526,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_Farma_200ml_282000.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Farma 200ml</h5>
                     </div>
                 </div>
@@ -526,7 +537,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_250ml_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco 250ml Retangular 45</h5>
                     </div>
                 </div>
@@ -537,7 +548,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_250ml_nr42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco 250ml NR42</h5>
                     </div>
                 </div>
@@ -548,7 +559,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_250ml_bc55.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote 250ml</h5>
                     </div>
                 </div>
@@ -567,7 +578,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_250ml_nr42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco 250ml NR42</h5>
                     </div>
                 </div>
@@ -578,7 +589,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_250ml_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Retangular 250ml</h5>
                     </div>
                 </div>
@@ -589,7 +600,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_300ml_agro_bc45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Agro 300ml</h5>
                     </div>
                 </div>
@@ -600,7 +611,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_500ml_agro_bc45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Agro 500ml</h5>
                     </div>
                 </div>
@@ -611,7 +622,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_500ml_petrobras.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Petrobras 500ml</h5>
                     </div>
                 </div>
@@ -622,7 +633,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_petrobras.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Petrobras 1L</h5>
                     </div>
                 </div>
@@ -633,7 +644,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_nr42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco 1L NR42</h5>
                     </div>
                 </div>
@@ -644,7 +655,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Retangular 1L</h5>
                     </div>
                 </div>
@@ -656,7 +667,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_250ml_bc55.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote 250ml</h5>
                     </div>
                 </div>
@@ -667,7 +678,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_500ml_rk_bc55.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote 500ml</h5>
                     </div>
                 </div>
@@ -678,7 +689,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_dosador_250ml.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Dosador 250ml</h5>
                     </div>
                 </div>
@@ -689,7 +700,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_dosador_1l_bc28.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Dosador 1L</h5>
                     </div>
                 </div>
@@ -700,7 +711,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_1l_redondo_bc85 (1).png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote Redondo 1L</h5>
                     </div>
                 </div>
@@ -711,7 +722,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_1200ml_rk_bc85.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote 1,2L</h5>
                     </div>
                 </div>
@@ -722,7 +733,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_2l_redondo_bc95.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote Redondo 2L</h5>
                     </div>
                 </div>
@@ -733,7 +744,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_5l_am_bc42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona AM 5L</h5>
                     </div>
                 </div>
@@ -744,7 +755,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_10l_retangular63.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Retangular 10L</h5>
                     </div>
                 </div>
@@ -755,7 +766,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_20l_retangular63.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Retangular 20L</h5>
                     </div>
                 </div>
@@ -775,7 +786,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_250ml_bc55.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote 250ml</h5>
                     </div>
                 </div>
@@ -786,7 +797,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_300ml_agro_bc45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Agro 300ml</h5>
                     </div>
                 </div>
@@ -797,7 +808,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_500ml_agro_bc45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Agro 500ml</h5>
                     </div>
                 </div>
@@ -808,7 +819,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_agro.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Agro 1L</h5>
                     </div>
                 </div>
@@ -819,7 +830,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_nr42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco NR42 1L</h5>
                     </div>
                 </div>
@@ -830,7 +841,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_1l_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Retangular 1L</h5>
                     </div>
                 </div>
@@ -841,7 +852,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_2l_retangular45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Retangular 2L</h5>
                     </div>
                 </div>
@@ -852,7 +863,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/frasco_3l_retangular45agro.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Frasco Retangular 3L</h5>
                     </div>
                 </div>
@@ -863,7 +874,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_500ml_rk_bc55 (1).png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote BC55 500ml</h5>
                     </div>
                 </div>
@@ -874,7 +885,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_1l_redondo_bc85.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote Redondo 1L</h5>
                     </div>
                 </div>
@@ -885,7 +896,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/pote_1200ml_rk_bc85.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Pote Quadrado 1,2L</h5>
                     </div>
                 </div>
@@ -896,7 +907,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_5l_tipoj.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Tipo J 5L</h5>
                     </div>
                 </div>
@@ -907,7 +918,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_5l_am_bc42.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona AM 5L</h5>
                     </div>
                 </div>
@@ -918,7 +929,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_5l_agro_bc45.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Agro 5L</h5>
                     </div>
                 </div>
@@ -929,7 +940,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_5l_tipoa95.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Tipo A 5L</h5>
                     </div>
                 </div>
@@ -940,7 +951,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_10l_retangular63.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Retangular 10L</h5>
                     </div>
                 </div>
@@ -951,7 +962,7 @@
                     data-descricao="teste">
                     <img class="card-img-top" src="assets/compiled/bombona_20l_retangular63.png" alt="Card image"
                         style="width:100%; object-fit: cover;">
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <h5 class="card-title">Bombona Retangular 20L</h5>
                     </div>
                 </div>
@@ -962,13 +973,13 @@
 
     <footer class="footer d-flex flex-row">
         <div class="footer-content d-flex justify-content-start p-2 me-4">
-            <p>Email: <a href="mailto:contato@imperfluor.com.br">contato@imperfluor.com.br</a></p>
+            <p>Email: <a href="mailto:anasantos@lcpack.com.br">anasantos@lcpack.com.br</a></p>
         </div>
         <div class="footer-content d-flex justify-content-start p-2 me-4">
-            <p>Telefone (Compras): <a href="tel:+551231561729">(12) 3156-1729</a></p>
+            <p>Telefone (Compras): <a href="tel:+551231564949">(12) 3156-4949</a></p>
         </div>
         <div class="footer-content d-flex justify-content-start p-2 me-4">
-            <p>Telefone (Comercial): <a href="tel:+551231564890">(12) 3156-4890</a></p>
+            <p>Telefone (Comercial): <a href="tel:+551231564949">(12 3156-4949</a></p>
         </div>
     </footer>
 
