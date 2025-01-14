@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LCPACK</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/carrossel.css" />
+    <link rel="stylesheet" href="styles/whatsapp.css" />
+    <link rel="stylesheet" href="styles/instagram.css" />
+    <link rel="stylesheet" href="styles/dropdown.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <script src="scripts/sweetalert2.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/carrossel.js"></script>
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="instagram-icon">
+        <a href="https://www.instagram.com/lcpack.brasil/" target="_blank" title="Chat on WhatsApp">
+            <img src="assets/ico/instagram.svg" alt="WhatsApp Icon">
+        </a>
+    </div>
+    <div class="whatsapp-icon">
+        <a href="https://api.whatsapp.com/send/?phone=5512992281116&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0"
+            target="_blank" title="Chat on WhatsApp">
+            <img src="assets/ico/whatsapp.svg" alt="WhatsApp Icon">
+        </a>
+    </div>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container-fluid banner">
+            <div class="row align-items-center justify-content-around">
+                <div class="col">
+                    <img src="assets/logotipo/lcpack-logo.png" class="img-fluid" alt="LC Pack Logo"
+                        style="height: 110px;" />
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <div class="row justify-content-end">
+                        <div class="col-auto" style="color: #fafafa;">
+                            <strong><i class="fa fa-phone me-2" style="scale: 1.5;"></i>
+                                <span style="font-size: 20px;">12 3156-4949</span>
+                            </strong>
+                        </div>
+                        <div class="col-auto" style="color: #fafafa;">
+                            <strong><i class="fa fa-dollar me-2" style="scale: 1.5;"></i>
+                                <span style="font-size: 20px;">Cotação</span></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Barra de Navegação -->
+    <navbar>
+        <div class="row text-center align-items-center justify-content-around mx-0">
+            <!-- <div class="col mt-4 text-center">
+                <h2 href="javascript:void(0);">
+                    <i class="fa fa-bars dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="#">
+                                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                                            <div class="icon px-3 bg-warning-subtle rounded-3 fs-1">
+                                                <i class="bi bi-tv"></i>
+                                            </div>
+                                            <div class="text ps-3">
+                                                <h5>Potes</h5>
+                                                <div>Irure incididunt eu irure quis ipsum
+                                                    occaecat dolor quis.</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#">
+                                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                                            <div class="icon px-3 bg-danger-subtle rounded-3 fs-1">
+                                                <i class="bi bi-headphones"></i>
+                                            </div>
+                                            <div class="text ps-3">
+                                                <h5>Potinhos</h5>
+                                                <div>Irure incididunt eu irure quis ipsum
+                                                    occaecat dolor quis.</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#">
+                                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                                            <div class="icon px-3 bg-success-subtle rounded-3 fs-1">
+                                                <i class="bi bi-phone"></i>
+                                            </div>
+                                            <div class="text ps-3">
+                                                <h5>Potões</h5>
+                                                <div>Irure incididunt eu irure quis ipsum
+                                                    occaecat dolor quis.</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#">
+                                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                                            <div class="icon px-3 bg-secondary-subtle rounded-3 fs-1">
+                                                <i class="bi bi-laptop"></i>
+                                            </div>
+                                            <div class="text ps-3">
+                                                <h5>Bombonas</h5>
+                                                <div>Irure incididunt eu irure quis ipsum
+                                                    occaecat dolor quis.</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#">
+                                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                                            <div class="icon px-3 bg-body-tertiary rounded-3 fs-1">
+                                                <i class="bi bi-smartwatch"></i>
+                                            </div>
+                                            <div class="text ps-3">
+                                                <h5>Frascos</h5>
+                                                <div>Irure incididunt eu irure quis ipsum
+                                                    occaecat dolor quis.</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#">
+                                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                                            <div class="icon px-3 bg-info-subtle rounded-3 fs-1">
+                                                <i class="bi bi-earbuds"></i>
+                                            </div>
+                                            <div class="text ps-3">
+                                                <h5>Frasquinhos</h5>
+                                                <div>Irure incididunt eu irure quis ipsum
+                                                    occaecat dolor quis.</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </i>
+                </h2>
+            </div> -->
+            <div class="col-3 mt-4">
+                <h4><a href="#section-embalagens" class="no-line" style="color: #1cafc7;"><strong>Todos os
+                            Departamentos</strong></a></h4>
+            </div>
+            <div class="col me-3 mt-4">
+                <h4><a href="#section-laboratorio" class="no-line"
+                        style="color: #1cafc7;"><strong>Laboratório</strong></a></h4>
+            </div>
+            <div class="col me-3 mt-4">
+                <h4><a href="#section-farmaceutico" class="no-line"
+                        style="color: #1cafc7;"><strong>Farmaceutico</strong></a></h4>
+            </div>
+            <div class="col me-3 mt-4">
+                <h4><a href="#section-quimico" class="no-line" style="color: #1cafc7;"><strong>Químico</strong></a></h4>
+            </div>
+            <div class="col me-3 mt-4">
+                <h4><a href="#section-agroquimico" class="no-line"
+                        style="color: #1cafc7;"><strong>Agroquímico</strong></a></h4>
+            </div>
+        </div>
+    </navbar>
+
+    <!-- EMBALAGENS PLASTICAS -->
+    <section class="container-fluid mt-4 p-0" id="section-embalagens">
+        <div class="separator d-flex justify-content-center align-items-center">
+            <h2 style="color: #fafafa;">EMBALAGENS PLÁSTICAS</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 m-5">
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_30ml.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco PET 30ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_farma_100ml_38100_roxo.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco PET 100ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_115ml_bc28.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Pead 115ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_125ml_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Pead 125ml Retangular</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_dosador_250ml.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Pead Dosador 250ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_300ml_agro_bc45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Pead 300ml Agro</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_agro.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Pead 1L Agro</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_petrobras.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Pead 1L Petrobrás</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_5l_am_bc42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Pead 5L AM</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_5l_pouron.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Pead 5L Pour on</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- LABORATORIO -->
+    <section class="container-fluid mt-4 p-0" id="section-laboratorio">
+        <div class="separator d-flex justify-content-left align-items-center">
+            <h2 class="mx-5" style="color: #fafafa;">LABORATÓRIO</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 m-5">
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_farma_30ml_28030.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Farma 30ml</h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_farma_50ml_38050.png" alt="Card image"
+                        style="width:100%; object-fit: cover; scale: 0.8;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Farma 50ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_farma_100ml_38100_roxo.png" alt="Card image"
+                        style="width:100%; object-fit: cover;  scale: 0.8;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Farma 100ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_Farma_200ml_282000.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Farma 200ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_dosador_250ml.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Dosador 250ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_dosador_1l_bc28.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Dosador 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_125ml_nr42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco 125ml NR42</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_250ml_nr42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco 250ml NR42</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_250ml_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Retangular 250ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_500ml_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Retangular 500ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Retangular 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_250ml_bc55.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote 250ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_500ml_rk_bc55 (1).png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote 500ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_1l_redondo_bc85 (1).png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote Redondo 1L</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FARMACEUTICO -->
+    <section class="container-fluid mt-4 p-0" id="section-farmaceutico">
+        <div class="separator d-flex justify-content-left align-items-center">
+            <h2 class="mx-5" style="color: #fafafa;">FARMACÊUTICO</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 m-5">
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_farma_30ml_28030.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Farma 30ml</h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_farma_50ml_38050.png" alt="Card image"
+                        style="width:100%; object-fit: cover; scale: 0.8;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Farma 50ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_farma_100ml_38100_roxo.png" alt="Card image"
+                        style="width:100%; object-fit: cover;  scale: 0.8;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Farma 100ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_115ml_bc28.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Pead 115ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_Farma_200ml_282000.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Farma 200ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_250ml_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco 250ml Retangular 45</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_250ml_nr42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco 250ml NR42</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_250ml_bc55.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote 250ml</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIMICO -->
+    <section class="container-fluid mt-4 p-0" id="section-quimico">
+        <div class="separator d-flex justify-content-left align-items-center">
+            <h2 class="mx-5" style="color: #fafafa;">QUÍMICO</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 m-5">
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_250ml_nr42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco 250ml NR42</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_250ml_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Retangular 250ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_300ml_agro_bc45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Agro 300ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_500ml_agro_bc45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Agro 500ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_500ml_petrobras.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Petrobras 500ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_petrobras.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Petrobras 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_nr42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco 1L NR42</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Retangular 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_250ml_bc55.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote 250ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_500ml_rk_bc55.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote 500ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_dosador_250ml.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Dosador 250ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_dosador_1l_bc28.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Dosador 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_1l_redondo_bc85 (1).png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote Redondo 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_1200ml_rk_bc85.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote 1,2L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_2l_redondo_bc95.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote Redondo 2L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_5l_am_bc42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona AM 5L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_10l_retangular63.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Retangular 10L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_20l_retangular63.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Retangular 20L</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AGROQUIMICO -->
+    <section class="container-fluid mt-4 p-0" id="section-agroquimico">
+        <div class="separator d-flex justify-content-left align-items-center">
+            <h2 class="mx-5" style="color: #fafafa;">AGROQUÍMICO</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 m-5">
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_250ml_bc55.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote 250ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_300ml_agro_bc45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Agro 300ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_500ml_agro_bc45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Agro 500ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_agro.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Agro 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_nr42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco NR42 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_1l_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Retangular 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_2l_retangular45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Retangular 2L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/frasco_3l_retangular45agro.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Frasco Retangular 3L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_500ml_rk_bc55 (1).png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote BC55 500ml</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_1l_redondo_bc85.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote Redondo 1L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/pote_1200ml_rk_bc85.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pote Quadrado 1,2L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_5l_tipoj.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Tipo J 5L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_5l_am_bc42.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona AM 5L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_5l_agro_bc45.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Agro 5L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_5l_tipoa95.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Tipo A 5L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_10l_retangular63.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Retangular 10L</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" data-bs-toggle="modal" data-bs-target="#modal_item" style="cursor: pointer;"
+                    data-descricao="teste">
+                    <img class="card-img-top" src="assets/compiled/bombona_20l_retangular63.png" alt="Card image"
+                        style="width:100%; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bombona Retangular 20L</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer d-flex flex-row">
+        <div class="footer-content d-flex justify-content-start p-2 me-4">
+            <p>Email: <a href="mailto:contato@imperfluor.com.br">contato@imperfluor.com.br</a></p>
+        </div>
+        <div class="footer-content d-flex justify-content-start p-2 me-4">
+            <p>Telefone (Compras): <a href="tel:+551231561729">(12) 3156-1729</a></p>
+        </div>
+        <div class="footer-content d-flex justify-content-start p-2 me-4">
+            <p>Telefone (Comercial): <a href="tel:+551231564890">(12) 3156-4890</a></p>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal_item">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title"></h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="imagem img-thumbnail" src="" alt="produto">
+                    <div class="descricao"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>
