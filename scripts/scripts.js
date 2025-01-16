@@ -75,3 +75,14 @@ cards.forEach(card => {
         document.querySelector("#modal_item .modal-body .descricao").textContent = descricao || 'Descrição não encontrada.';
     };
 });
+
+document.addEventListener('scroll', function() {
+    var footer = document.querySelector('.footer');
+    var pageBottom = window.scrollY + window.innerHeight >= document.body.scrollHeight;
+
+    if (pageBottom) {
+        footer.style.position = 'relative';
+    } else {
+        footer.style.position = 'fixed';
+    }
+});
