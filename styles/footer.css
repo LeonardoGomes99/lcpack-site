@@ -18,8 +18,26 @@
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .footer-content p {
         font-size: 14px;
+    }
+} */
+
+@media (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        height: auto; /* Adjust height based on content */
+    }
+    
+    .footer-content {
+        width: 100%; /* Make each item take full width */
+        margin-bottom: 10px; /* Space between items vertically */
+        justify-content: center; /* Center items horizontally */
+    }
+
+    .footer-content p {
+        font-size: 14px;
+        margin: 0; /* Reset margin to ensure items stack neatly */
     }
 }

@@ -15,3 +15,11 @@
 .instagram-icon a img:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 600px) {
+    .instagram-icon {
+        bottom: 150px;
+        right: 8px;
+        z-index: 1000;
+    }
+}

@@ -15,6 +15,10 @@ body {
     background-color: #fafafa;
 }
 
+.hidden {
+    display: none;
+}
+
 .container.banner,
 .container-fluid.banner {
     width: 100%;
@@ -67,4 +71,17 @@ body {
 
 .dropdown-toggle::after {
     color: transparent !important;
+}
+
+
+/* Media Query para telas médias e grandes */
+@media (min-width: 768px) {
+    .menu-items {
+        flex-direction: row; /* Alinha os itens em linha */
+        justify-content: space-around;
+    }
+    
+    .menu-link {
+        margin: 0 1rem;
+    }
 }

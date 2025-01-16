@@ -56,3 +56,43 @@
     text-align: left;
   }
 }
+
+
+.menu-superior .departamentos {
+  background: linear-gradient(to right, #1cafc7, #016675);
+}
+
+.menu-superior {
+  display: flex;
+}
+
+.menu-image-container img {
+  height: 120px;
+}
+
+@media (min-width: 768px) {
+
+  .menu-image-container {
+    height: 120px;
+  }
+
+  .menu-image-container div {
+    height: 80px;
+  }
+
+  .menu-image-container img {
+    height: 160px;
+  }
+
+  .menu-superior-container {
+    height: 120px;
+  }
+
+  .departamentos {
+    height: 80px;
+  }
+
+  .tipos {
+    height: 80px;
+  }
+}
